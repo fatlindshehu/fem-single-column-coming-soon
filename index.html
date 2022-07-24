@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/f3712af051.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/dist/style.css" />
+    <script defer src="/dist/script.js"></script>
+    <title>Frontend Mentor | Ping coming soon page</title>
+  </head>
+  <body>
+    <div class="component">
+      <header class="header">
+        <div class="header__logo-box">
+          <img src="/app/images/logo.svg" alt="Logo" class="header__logo" />
+        </div>
+        <div class="header__text-box">
+          <h1 class="header__main">We are launching <span>soon!</span></h1>
+          <h2 class="header__sub">Subscribe and get notified</h2>
+        </div>
+        <form class="header__search">
+          <div class="header__box">
+            <input
+              class="header__input"
+              placeholder="Your email address..."
+              type="text"
+              value=""
+            />
+            <div class="header__error">
+              Please provide a valid email address
+            </div>
+          </div>
+          <a class="header__button" href="#">Notify Me</a>
+        </form>
+      </header>
+
+      <div class="image-box">
+        <img
+          class="illustration-dashboard"
+          src="/app/images/illustration-dashboard.png"
+          alt="Illustration Dashboard"
+        />
+      </div>
+
+      <footer class="footer">
+        <ul class="footer__icons">
+          <li><i class="fa-brands fa-facebook-f"></i></li>
+          <li><i class="fa-brands fa-twitter"></i></li>
+          <li><i class="fa-brands fa-instagram"></i></li>
+        </ul>
+        <div class="footer__copyright">
+          <p>Copyright Ping. All rights reserved!</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
